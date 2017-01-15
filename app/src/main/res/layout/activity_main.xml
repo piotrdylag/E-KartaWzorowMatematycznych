@@ -17,11 +17,22 @@
         android:weightSum="1">
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textview"
+            android:text="Witaj w E-Karcie Wzorów Matematycznych dla Maturzystów"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent" />
+
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnWartBezw"
-            android:text="Wartosc Bezwzgledna Liczby" />
+            android:text="Wartosc Bezwzgledna Liczby"
+            android:onClick="WartoscBezwzgledna"/>
 
         <Button
             android:layout_width="match_parent"
