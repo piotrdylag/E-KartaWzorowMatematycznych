@@ -10,4 +10,121 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.dylag.piotr.e_kartawzorowmatematycznych.MainActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnWartBezw"
+            android:text="Wartosc Bezwzgledna Liczby" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnPotPier"
+            android:text="Potęgi i Pierwiatki" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnLog"
+            android:text="Logarytmy" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnSilDwu"
+            android:text="Silnia, Wspólczynnik dwumianowy" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnDwuNew"
+            android:text="Wzór Dwumianowy Newtona" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnWzSkrMno"
+            android:text="Wzory Skróconego Mnozenia" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnCiagi"
+            android:text="Ciagi" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnFunKwad"
+            android:text="Funkcja Kwadratowa" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnGeoAna"
+            android:text="Geometria Analityczna" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnPlan"
+            android:text="Planimetria" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnSter"
+            android:text="Stereometria" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnTryg"
+            android:text="Trygonometria" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnKombi"
+            android:text="Kombinatoryka" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnRachPraw"
+            android:text="Rachunek Prawdopodobieństwa" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnParDanStat"
+            android:text="Parametry Danych Statystycznych" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnGranCiag"
+            android:text="Granica Ciagu" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnPochFun"
+            android:text="Pochodna Funkcji" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnTabWarTryg"
+            android:text="Tablica Wartosci Funkcji Trygonometrycznych"
+            android:layout_weight="0.14" />
+
+
+    </LinearLayout>
 </ScrollView>
