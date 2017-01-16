@@ -17,6 +17,13 @@
         </activity>
 
         <activity android:name=".wartosc_bezwzgledna"></activity>
+
+        <activity android:name=".PotegiPierwiastki"></activity>
+
+        <activity android:name=".Logarytmy"></activity>
+
+
+
     </application>
 
 </manifest>

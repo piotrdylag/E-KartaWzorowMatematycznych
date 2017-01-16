@@ -58,4 +58,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void PotegiPierwiastki(View view) {
+
+        Intent intentpier = new Intent(this, PotegiPierwiastki.class);
+        startActivity(intentpier);
+    }
+
+    public void logarytmy(View view) {
+
+        Intent intentlog = new Intent(this, Logarytmy.class);
+        startActivity(intentlog);
+    }
 }

@@ -38,13 +38,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnPotPier"
-            android:text="Potęgi i Pierwiatki" />
+            android:text="Potęgi i Pierwiatki"
+            android:onClick="PotegiPierwiastki"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnLog"
-            android:text="Logarytmy" />
+            android:text="Logarytmy"
+            android:onClick="logarytmy"/>
 
         <Button
             android:layout_width="match_parent"
