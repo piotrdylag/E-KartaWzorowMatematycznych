@@ -21,8 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/textview"
-            android:text="Witaj w E-Karcie Wzorów Matematycznych dla Maturzystów"
-            android:textStyle="normal|bold"
+            android:text="Witaj maturzysto w swojej E-Karcie Wybranych Wzorów Matematycznych"
+            android:textStyle="normal|bold|italic"
             android:textSize="18sp"
             android:textColor="@color/colorAccent" />
 
