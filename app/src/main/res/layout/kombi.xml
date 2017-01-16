@@ -10,9 +10,10 @@
 
 
 
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="3. LOGARYTMY"/>
+            android:text="13. KOMBINATORYKA"/>
     </LinearLayout>
 </ScrollView>

@@ -69,4 +69,94 @@ public class MainActivity extends AppCompatActivity {
         Intent intentlog = new Intent(this, Logarytmy.class);
         startActivity(intentlog);
     }
+
+    public void SilniaDwumian(View view) {
+
+        Intent intentsilniadwumian = new Intent(this, SilniaDwumian.class);
+        startActivity(intentsilniadwumian);
+    }
+
+    public void DwumianNew(View view) {
+        Intent intentdwumiannew = new Intent(this, DwumianNew.class);
+        startActivity(intentdwumiannew);
+    }
+
+    public void WzorySkrMnoz(View view) {
+        Intent intentwzoryskrmnoz = new Intent(this, WzorySkrMnoz.class);
+        startActivity(intentwzoryskrmnoz);
+    }
+
+
+    public void ciagi(View view) {
+        Intent intentciagi = new Intent(this, Ciagi.class);
+        startActivity(intentciagi);
+    }
+
+    public void FunKwad(View view) {
+
+        Intent intentfunkwad = new Intent(this, FunKwad.class);
+        startActivity(intentfunkwad);
+    }
+
+    public void GeoAna(View view) {
+
+        Intent intentgeoana = new Intent(this, GeoAna.class);
+        startActivity(intentgeoana);
+    }
+
+    public void Plan(View view) {
+
+        Intent intentplan = new Intent(this, Plan.class);
+        startActivity(intentplan);
+    }
+
+    public void Ster(View view) {
+
+        Intent intentster = new Intent(this, Ster.class);
+        startActivity(intentster);
+    }
+
+    public void Tryg(View view) {
+
+        Intent intenttryg = new Intent(this, Tryg.class);
+        startActivity(intenttryg);
+    }
+
+    public void Kombi(View view) {
+
+        Intent intentkombi = new Intent(this, Kombi.class);
+        startActivity(intentkombi);
+
+    }
+
+
+    public void RachPraw(View view) {
+
+        Intent intentrachpraw = new Intent(this, Rachpraw.class);
+        startActivity(intentrachpraw);
+    }
+
+    public void ParDanStat(View view) {
+
+        Intent intentpardanstat = new Intent(this, ParDanStat.class);
+        startActivity(intentpardanstat);
+    }
+
+    public void GranCiag(View view) {
+
+        Intent intentgranciag = new Intent(this, GranCiag.class);
+        startActivity(intentgranciag);
+    }
+
+    public void PochFun(View view) {
+
+        Intent intentpochfun = new Intent(this, PochFun.class);
+        startActivity(intentpochfun);
+    }
+
+    public void TabWarFunTryg(View view) {
+
+        Intent intenttabwarfuntryg = new Intent(this, TabWarFunTryg.class);
+        startActivity(intenttabwarfuntryg);
+    }
 }

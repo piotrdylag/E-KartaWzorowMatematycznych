@@ -22,6 +22,37 @@
 
         <activity android:name=".Logarytmy"></activity>
 
+        <activity android:name=".SilniaDwumian"></activity>
+
+        <activity android:name=".DwumianNew"></activity>
+
+        <activity android:name=".WzorySkrMnoz"></activity>
+
+        <activity android:name=".Ciagi"></activity>
+
+        <activity android:name=".Plan"></activity>
+
+        <activity android:name=".Kombi"></activity>
+
+        <activity android:name=".Tryg"></activity>
+
+        <activity android:name=".Rachpraw"></activity>
+
+        <activity android:name=".ParDanStat"></activity>
+
+        <activity android:name=".TabWarFunTryg"></activity>
+
+        <activity android:name=".PochFun"></activity>
+
+        <activity android:name=".GranCiag"></activity>
+
+        <activity android:name=".Ster"></activity>
+
+        <activity android:name=".GeoAna"></activity>
+
+        <activity android:name=".FunKwad"></activity>
+
+
 
 
     </application>

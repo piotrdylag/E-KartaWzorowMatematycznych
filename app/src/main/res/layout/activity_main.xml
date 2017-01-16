@@ -52,91 +52,106 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnSilDwu"
-            android:text="Silnia, Wspólczynnik dwumianowy" />
+            android:text="Silnia, Wspólczynnik dwumianowy"
+            android:onClick="SilniaDwumian"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnDwuNew"
-            android:text="Wzór Dwumianowy Newtona" />
+            android:text="Wzór Dwumianowy Newtona"
+            android:onClick="DwumianNew"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnWzSkrMno"
-            android:text="Wzory Skróconego Mnozenia" />
+            android:text="Wzory Skróconego Mnozenia"
+            android:onClick="WzorySkrMnoz"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnCiagi"
-            android:text="Ciagi" />
+            android:text="Ciagi"
+            android:onClick="ciagi"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnFunKwad"
-            android:text="Funkcja Kwadratowa" />
+            android:text="Funkcja Kwadratowa"
+            android:onClick="FunKwad"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnGeoAna"
-            android:text="Geometria Analityczna" />
+            android:text="Geometria Analityczna"
+            android:onClick="GeoAna"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnPlan"
-            android:text="Planimetria" />
+            android:text="Planimetria"
+            android:onClick="Plan"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnSter"
-            android:text="Stereometria" />
+            android:text="Stereometria"
+            android:onClick="Ster"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnTryg"
-            android:text="Trygonometria" />
+            android:text="Trygonometria"
+            android:onClick="Tryg"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnKombi"
-            android:text="Kombinatoryka" />
+            android:text="Kombinatoryka"
+            android:onClick="Kombi"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnRachPraw"
-            android:text="Rachunek Prawdopodobieństwa" />
+            android:text="Rachunek Prawdopodobieństwa"
+            android:onClick="RachPraw"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnParDanStat"
-            android:text="Parametry Danych Statystycznych" />
+            android:text="Parametry Danych Statystycznych"
+            android:onClick="ParDanStat"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnGranCiag"
-            android:text="Granica Ciagu" />
+            android:text="Granica Ciagu"
+            android:onClick="GranCiag"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnPochFun"
-            android:text="Pochodna Funkcji" />
+            android:text="Pochodna Funkcji"
+            android:onClick="PochFun"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/btnTabWarTryg"
             android:text="Tablica Wartosci Funkcji Trygonometrycznych"
-            android:layout_weight="0.14" />
+            android:layout_weight="0.14"
+            android:onClick="TabWarFunTryg"/>
 
 
     </LinearLayout>
