@@ -18,13 +18,13 @@
 
 
         <TextView
+            android:id="@+id/textview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/textview"
             android:text="Witaj maturzysto w swojej E-Karcie Wybranych Wzorów Matematycznych"
-            android:textStyle="normal|bold|italic"
+            android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textColor="@color/colorAccent" />
+            android:textStyle="normal|bold|italic" />
 
 
         <Button
